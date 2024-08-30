@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unique erp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <style>
+        ul {
+            list-style: none;
+
+
+        }
+
+        li {
+            float: left;
+            padding: 1px;
+
+
+
+        }
+
+        a {
+            color: #2d3e50;
+            display: block;
+            font-family: Candara;
+            font-size: 16px;
+
+            text-decoration: none;
+            margin-top: 90px;
+            margin-left: 40px;
+        }
+
+        a:hover {
+            color: rgb(1, 158, 1);
+            text-decoration-line: underline;
+        }
+
+        .logo {
+            position: absolute;
+            margin-top: 80px;
+            height: 40px;
+            width: 250px;
+            margin-left: 40px;
+        }
+
+        .br {
+            height: 50px;
+            width: 1370px;
+            background-color: #2d3e50;
+            position: fixed;
+            top: 0px;
+
+        }
+
+        .brd {
+            border-bottom: 50px solid rgb(134, 188, 66);
+            border-left: 20px solid transparent;
+            width: 600px;
+            position: fixed;
+            top: 9px;
+            margin-left: 750px;
+        }
+
+        .box {
+            height: 410px;
+            width: 420px;
+            background-color: rgb(134, 188, 66);
+            position: absolute;
+            margin-left: 800px;
+            top: 18px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        input {
+            height: 40px;
+            width: 325px;
+            margin: 5px;
+
+            border-radius: 5px;
+            border: 1px solid rgb(223, 219, 219);
+            position: relative;
+            top: 30px;
+
+        }
+
+        .font {
+            font-family: cursive;
+            font-size: 28px;
+            position: relative;
+            top: 20px;
+        }
+
+        .submit {
+            color: white;
+            background-color: #2d3e50;
+            border: 0px;
+            height: 45px;
+        }
+
+        .box2 {
+
+            height: 430px;
+            width: 100%;
+            position: absolute;
+            margin-top: 150px;
+
+        }
+
+        .image {
+            height: 430px;
+            width: 100%;
+            position: absolute;
+
+        }
+
+        .text {
+            position: absolute;
+            font-size: 45px;
+            font-family: Cooper;
+            top: 65px;
+            left: 100px;
+            text-shadow: 2px 2px 5px #ffffff;
+            ;
+
+        }
+
+        .text1 {
+            position: absolute;
+            font-size: 25px;
+
+            top: 150px;
+            left: 100px;
+            text-shadow: 1px 1px 5px #ffffff;
+            ;
+
+        }
+
+        .lady {
+            position: absolute;
+            height: 410px;
+            width: 200px;
+            margin-left: 1133px;
+            top: 18px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+
+
+
+        }
+
+        .dcontent {
+            display: none;
+            position: absolute;
+            background-color:#364a4ee8;
+            width: 600px;
+            padding: 5px;
+            left: -370px;
+            z-index: 2;
+            height: 300px;
+
+
+        }
+
+        .dropdown:hover .dcontent {
+            display: block;
+        }
+
+        .ul {
+            list-style-image: url(arrow.PNG);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="br">
+        <ul>
+            <li style="margin-top: -90px;">
+                <a style="color: white;" href="#">info@uniqueerp.com</a>
+            </li>
+            <li style="margin-top: -90px;">
+                <a style="color: white;" href="#">+91 7428014155</a>
+            </li>
+            <li style="margin-top: -90px;">
+                <a style="color: white;" href="#">+91 7428014155</a>
+            </li>
+
+
+
+        </ul>
+
+    </div>
+    <div class="brd">
+        <img src="logo1.jpg" style="position: absolute; height: 35px;
+        width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 20px;">
+        <img src="logo2.png" style="position: absolute; height: 35px;
+width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 80px;">
+        <img src="logo3.jpg" style="position: absolute; height: 35px;
+width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 140px;">
+        <img src="logo4.jpg" style="position: absolute; height: 35px;
+width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 200px;">
+        <img src="logo5.jpg" style="position: absolute; height: 35px;
+width: 35px; border-radius: 30px; margin-top: 7px; margin-left: 260px;">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"
+            style="position: absolute;margin-left: 350px; margin-top: 5px;">register for demo class</button>
+
+      
+
+    </div>
+    <div class="modal" id="myModal"  style="width: 500px; margin-left: 450px;margin-top: 30px;">
+        <div class="modal-diaglog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                <div class="modal-body">
+                    <input type="text" placeholder="NAME" style="width: 470px; height: 60px; border-radius: 5px;">
+                    <br>
+                    <input type="email" placeholder="MAIL" style="width: 470px; height: 60px; border-radius: 5px;">
+                    <br>
+                    <input type="number" placeholder="mobile number"
+                        style="width: 470px; height: 60px; border-radius: 5px;">
+                    <br>
+                    <input type="text" placeholder="course applied for"
+                        style="width: 470px; height: 60px; border-radius: 5px;">
+
+
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul>
+        <img src="logounique.html" class="logo">
+        <li style="margin-left: 500px;">
+            <a href="#">HOME</a>
+        </li>
+        <li>
+            <a href="#">ABOUT US</a>
+        </li>
+        <li class="dropdown">
+            <a href="#">COURCES</a>
+
+           <div class="dcontent" style="width: 1000px; margin-left: -100px; height: 200px;">
+            <div class="row">
+                <div class="col"><p style="color: white;">SAP TRAINING</p>
+                </div>
+                <div class="col"><p style="color: white;">ANDROID (MOBILE APPICATION)</p></div>
+                <div class="col"><p style="color: white;">Digital Marketing</p></div>
+                <div class="col"><p style="color: white;">Cloud Computing</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p style="color: white;">Java Training</p></div>
+                <div class="col"><p style="color: white;">.NET Training</p></div>
+                <div class="col"><p style="color: white;">PHP Training</p></div>
+                <div class="col"><p style="color: white;">C & C++</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p style="color: white;">WEB Designing</p></div>
+                <div class="col"><p style="color: white;">Python</p></div>
+                <div class="col"><p style="color: white;">Linux</p></div>
+                <div class="col"><p style="color: white;">"A" LEVEL</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p style="color: white;">ORACLE TRAINING (SQL/MySQL)</p>
+                </div>
+                <div class="col"><p style="color: white;">WEB DEVELOPMENT</p>
+                </div>
+                <div class="col"><p style="color: white;">"O" LEVEL</p></div>
+                <div class="col"><p style="color: white;">NETWORKING</p>
+                </div>
+            </div>
+           </div>
+        </li>
+        <li>
+            <a href="#">PLACEMENT</a>
+        </li>
+        <li>
+            <a href="#">REGISTRATION</a>
+        </li>
+        <li>
+            <a href="#">CONTACT US</a>
+        </li>
+
+    </ul>
+    <div class="box2">
+        <img src="background1.jpg" class="image">
+        <span class="text">OFFERED COURSES</span>
+        <br>
+        <span class="text1">SAP Training Gives Your Career an Edge in the Business
+            <br>
+            Management of IT industries
+            <br>
+
+            <br>
+            Unique ERP, a Faridabad based IT software training
+            <br>
+            academy have charted out brilliant training programs for
+            <br>
+            students in domains of training.</span>
+        <div class="box">
+            <span class="font"> GET FREE DEMO CLASS</span>
+            <input type="text" placeholder="NAME">
+            <input type="email" placeholder="EMAIL">
+            <input type="number" placeholder="CONTACT">
+            <input type="text" placeholder="COURSE APPLIED FOR">
+            <input type="text" placeholder="MESSAGE">
+            <input class="submit" type="button" value="SUBMIT">
+        </div>
+        <img src="lady.png" class="lady">
+    </div>
+    <div class="container-fluid" style="background-color:white; margin-top: 585px; position: absolute; height: 500px;width: 100%">
+        <h1 style="color: black; text-align: center;">OFFERED COURSES</h1>
+        <hr style=" border: 3px solid black; width: 300px; margin-left: 510px;" >
+<div class="row">
+    <div class="col">
+        <div class="card" style="width: 300px;height: 400px;">
+            <img class="card-img-top" src="card1.PNG" alt="card image" style="width: 100%;height: 200px;">
+            <div class="card-body" >
+                <h4>SAP TRAINING</h4>
+                <span data-bs-toggle="collapse" data-bs-target="#demo" > see profile</span>
+                <div id="demo" class="collapse">
+        <p >SAP training imparted by well-trained faculty is 
+            sfocused on live projects to give a first-hand experience of working on global SAP-based projects.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 300px;height: 400px;">
+                <img class="card-img-top" src="card2.PNG" alt="card image" style="width: 100%;height: 200px;">
+                <div class="card-body" >
+                    <h4>JAVA TRAINING</h4>
+                    <span data-bs-toggle="collapse" data-bs-target="#demo3" > see profile</span>
+                    <div id="demo3" class="collapse">
+            <p>Java is the general purpose language which is the base of almost all kinds of networked applications.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 300px;height: 400px;">
+                    <img class="card-img-top" src="card3.PNG" alt="card image" style="width: 100%;height: 200px;">
+                    <div class="card-body" >
+                        <h4>WEB DESIGNING</h4>
+                        <span data-bs-toggle="collapse" data-bs-target="#demo1" > see profile</span>
+                        <div id="demo1" class="collapse">
+                <p >Website designing has always enjoyed status as the initiation point of online business marketing.
+                     Well-trained web designers are in high demand.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 300px;height: 400px;">
+                        <img class="card-img-top" src="card4.PNG" alt="card image" style="width: 100%;height: 200px;">
+                        <div class="card-body" >
+                            <h4>WEB DEVELOPMENT</h4>
+                    
+                            <span data-bs-toggle="collapse" data-bs-target="#demo2" > LEARN MORE</span>
+                            <div id="demo2" class="collapse">
+                    <p >Web development go hand in hand.
+                         Knowledge in web designing is the first step towards web development.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+</div>
+ 
+    </div>
+
+</body>
+
+</html>
